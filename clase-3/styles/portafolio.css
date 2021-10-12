@@ -1,0 +1,162 @@
+/* SELECTORES GLOBALES */
+body {
+    color: black;
+    font-size: 13px;
+    font-family: Arial; 
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+/*
+HEADER
+*/
+header {
+    background: #00AAB5;
+    text-align: center;
+    padding: 20px;
+}
+
+header a{
+color: white;
+}
+
+header .header-logo {
+    font-size: 64px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/*
+MY SKILLS 
+*/
+
+.my-skills {
+    background: #7299FE;
+    text-align: center;
+    padding-left: 104px
+    padding-right: 104px;
+    padding-top: 28px;
+    padding-bottom: 86px;
+}
+
+.my-skills h2{
+    color: #B508A3;
+
+}
+/*
+SERVICIOS
+*/
+
+.services {
+    background: #FB7171;
+    text-align: center;
+}
+
+.services h2 {
+    color: #00CC9B;
+}
+
+/*
+PORTAFOLIO
+*/
+
+.portafolio {
+    background: #FFD233;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/*
+CLIENTES
+*/
+
+.clientes {
+    background: #3F4E62;
+    color: #FF00C7;
+    text-align:center;
+
+}
+
+/*
+CONTACTO
+*/
+
+.contacto {
+    background: #16A085;
+    color: #CEE000;
+}
+
+.name {
+    /*
+    position: absolute;
+    width: 363px;
+    height: 59px;
+    left: 497px;
+    top: 2294px;
+    */
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;    
+}
+
+.lastname {
+    /*
+    position: absolute;
+    width: 363px;
+    height: 59px;
+    left: 497px;
+    top: 2294px;
+    */
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+}
+
+.email {
+    /*
+    position: absolute;
+    width: 363px;
+    height: 59px;
+    left: 101px;
+    top: 2386px;
+    */
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+}
+
+.telephone {
+    /*
+    position: absolute;
+    width: 363px;
+    height: 59px;
+    left: 497px;
+    top: 2386px;
+    */    
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+}
+
+.send {
+    background: #233451;
+    color: #FFFFFF;
+    /*
+    height: 56px;
+    width: 167px;
+    left: 397px;
+    top: 2638px;
+    border-radius: 0px;
+    */
+}
+
+/*
+FOOTER
+*/
+
+footer {
+    background: #00AAB5;
+    color: #FFFFFF;
+}

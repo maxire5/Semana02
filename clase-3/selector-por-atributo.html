@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores de Atributos</title>
+    <style>
+        [href]{
+            color:orange;
+        }
+        [href="https://google.com"]{
+            color:red;
+        }
+        [href="https://facebook.com"]{
+            color:blue;
+
+        }
+        [href="https://youtube.com"]{
+            color:yellow;
+        }
+        [href="http://linkedin.com"]{
+            color:violet;
+        }
+        [type="text"]{
+            padding: 20px;
+        }
+        input[disabled]{
+            background: red;
+        }
+        h2[class="h2"]{
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+        </ul>
+        <h2 class="h2">TITULO</h2>
+        <h2 class="h2">Selectores por atributos</h2>
+        <a href="https://google.com">GOOGLE</a>
+        <a href="https://facebook.com">FACEBOOK</a>
+        <a href="https://youtube.com">YOUTUBE</a>
+        <a href="http://linkedin.com">LINKEDIN</a>
+        <hr>
+        <input type="text">
+        <input type="text" disabled>
+        <input type="email">
+    </div>
+</body>
+</html>
