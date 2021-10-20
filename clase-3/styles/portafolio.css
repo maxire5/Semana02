@@ -1,5 +1,7 @@
 /* SELECTORES GLOBALES */
 body {
+    width: 961px;
+    height: 138px;
     color: black;
     font-size: 13px;
     font-family: Arial; 
@@ -20,10 +22,6 @@ header {
     background: #00AAB5;
     text-align: center;
     padding: 20px;
-}
-
-header a{
-color: white;
 }
 
 header .header-logo {

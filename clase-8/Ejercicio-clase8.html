@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Clase 8: GRID</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        
+        body {
+            width: 1024px;
+            height: 100hv;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            line-height: 150%;
+        }
+
+        header {
+            height: 72px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header .logo-codigo {
+            width: 120px;
+            height: 37px;
+            position: absolute;
+            left: 35px;
+            top: 18px;
+        }
+
+        header .menu {
+            width: 361px;
+            height: 17px;
+            font-size: 15px;
+            line-height: 17.25px;
+            position: absolute;
+            left: 611px;
+            top: 28px;
+        }
+
+        header .menu ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        hr {
+            width: 1024px;
+            border-color: #E5E5E5;
+            border-width: 3px;
+        }
+
+        .find {
+            position: relative;
+        }
+
+        .find input {
+            width: 910px;
+            height: 43px;
+            margin-left: 52px;
+            border-radius: 10px;
+            border: 1px solid rgb(175, 167, 167);
+            margin-top: 5px;
+            padding-left: 10px;
+        }
+
+        .find button {
+            border: none;
+            position: absolute;
+            width: 17.5px;
+            height: 17.5px;
+            right: 60px;
+            top: 19px;
+            background: none;
+        }
+
+        .first-section {
+            display: flex;
+            margin-top: 20px;
+            margin-left: 52px;
+            color: #ffffff;
+            font-size: 12px;
+        }
+        
+        .part-left {
+            width: 507px;
+            height: 346px;
+            position: relative;
+        }
+
+        .part-left button {
+            height: 30px;
+            width: 78px;
+            border-radius: 8px;
+            position: absolute;
+            right: 10px;
+            top: 10px;;
+            background: #AD195A;
+            color: #ffffff;
+            border: none;
+        }
+
+        .part-left h2 {
+            position: absolute;
+            left: 10px;
+            top: 70px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .part-left .lorem {
+            position: absolute;
+            top: 100px;
+            left: 10px;
+        }
+
+        .part-left .author {
+            position: absolute;
+            top: 320px;
+            left: 10px;
+        }
+
+        .part-left .date {
+            position: absolute;
+            top: 320px;
+            right: 10px;
+        }
+
+        .part-right {
+            width: 393px;
+            height: 346px;
+            position: relative;
+            margin-left: 20px;
+        }
+
+        .react {
+            margin-top: 19px;
+            margin-bottom: 19px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-codigo">
+            <img src="./images/logo-codigo.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li>Todos</li>
+                <li>Front End</li>
+                <li>Back End</li>
+                <li>Servidores</li>
+            </ul>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div class="find">
+            <input class="text-find" type="text" placeholder="Buscar">
+            <button class="button-find">
+                <img src="./images/find.png" alt="">
+            </button>
+        </div>
+        <section class="first-section">
+            <div class="part-left">
+                <img src="./images/Angular.png" alt="">
+                <button>Front end</button>
+                <h2>ANGULAR 9, YA ESTA AQUI!!</h2>                
+                <p class="lorem">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit ipsam saepe aperiam architecto molestias consequatur animi est modi deserunt. Deserunt deleniti nisi perferendis sed error consectetur voluptate exercitationem, aspernatur debitis!
+                </p>
+                <p class="author">Maximiliano Revolledo</p>
+                <p class="date">19/10/021</p>
+            </div>
+            <div class="part-right">
+                <div class="python">
+                    <img src="./images/Python.png" alt="">
+                </div>
+                <div class="react">
+                    <img src="./images/React.png" alt="">
+                </div>
+                <div class="amazon">
+                    <img src="./images/Amazon.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="second-section">
+            <h2>TODOS</h2>
+        </section>
+    </main>
+</body>
+</html>
