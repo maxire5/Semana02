@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA QUIERIES</title>
+    <style>
+        div {
+            background: red;
+        }
+        /*
+        PUNTOS DE QUIEBRE
+        MOBILE XS // 0 > 320px
+        MOBILE SM // 320px > 480px
+        MOBILE LARGE // 481 > 680px
+        TABLET // 680px > 840px
+        DESKTOP  // 841px > tamaño del layout
+        DESKTOP XL // tamaño del layout
+        */
+        /* ancho mínimo mayor a > 320px */
+        @media (min-width: 320px) {
+            div {
+                background: orange;
+            }
+        }
+
+        /* ancho máximo menor a < 780px */
+        @media (max-width: 780px) {
+            div {
+                background: blue;
+            }
+        }
+
+        /* altura minima mayor a > 480px */
+        @media (min-height: 480px) {
+            div {
+                background: rgb(18, 138, 82);
+            }
+         }
+
+         /*  altura maxima menor a < 800px */
+         @media (max-height: 800px) {
+             div {
+                 background: brown;
+             }
+         }
+
+         /* cuando la pantalla se ponga horizontal */
+         @media (orientation: landscape) {
+             div {
+                 color: white;
+             }
+         }
+
+         /* cuando la pantalla esta en modo normal */
+         @media (orientation: portrait) {
+             div {
+                 color: blue;
+             }
+         }
+
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            HEADER
+        </header>
+        <main>
+            MAIN
+        </main>
+        <footer>
+            FOOTER
+        </footer>
+    </div>
+</body>
+</html>
