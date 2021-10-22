@@ -6,36 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJERCICIO DE MEDIA</title>
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./fonts/roboto/roboto.css">
     <style>
         * {
-            margin: 0;
-            padding: 0;
-        }
-
-        div {
-            background: #C4C4C4;
-            line-height: 40px;
+            box-sizing: border-box;
         }
 
         header {
-            background: #C4C4C4;
-            width: 1220x;
+            display: flex;
+            max-width: 1220x;
             height:79px;
             text-align: center;
-            font-size: 34px;
-            line-height: 40px;
-            margin: auto;
-            padding: auto;
+            justify-content: center;
+            align-items: center;
+            background: #C4C4C4;
         }
 
         h1 {
-            background: yellow;
-            text-align: center;
+            font-family: 'Roboto';
+            /* font-size: 34px; */
+            font-size: 6vh;
             line-height: 40px;
         }
-        .conjunt {
 
+        .flex {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .flex div {
+            /*
+            width: 576px;
+            height: 133px;
+            */
+            width: 45%;
+            height: 133px;
+            
+            background: #C4C4C4;
+            margin: 10px
+        }
+
+        footer {
+            width: 1220x;
+            height:79px;
+            margin-top: 40px;
+            background: #C4C4C4;
+        }
+
+        @media (max-width: 872px) {
+            div {
+                max-width: 772;
+            }
+
+            h1 {
+                font-size: medium;
+            }
+            
+            .flex div {
+                background: red;
+            }
+        }
+ 
+        @media (max-width: 476px) {
+            div {
+                max-width: 376;
+            }
+            
+            h1 {
+                font-size: small;
+            }
+            
+            .flex div {
+                background: orange;
+            }
         }
 
     </style>
@@ -46,13 +91,13 @@
             <h1>TITULO PRINCIPAL</h1>
         </header>
         <main>
-            <div class="conjunt">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="flex">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
             </div>
         </main>
         <footer>
