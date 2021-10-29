@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepperoni Pizza</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        body {
+            font-family: sans-serif, Arial, Helvetica;
+            font-size: 13px;
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 3rem;
+        }
+
+        .card {
+            width: 360px;
+            height: 528px;
+            background: white;
+            border: 1px solid red;
+            border-radius: 16px;
+            margin: 20px;
+        }
+
+        .photo-principal {
+            position: relative;
+        }
+
+        .icon-info {
+            position: absolute;
+            top: 0.1rem;
+            right: 0.5rem;
+        }
+
+        .all-white {
+            margin: 24px;
+        }
+
+        .subtitulo-component {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .description {
+            color: grey;
+            font-size: 130%;
+            text-align: left;
+            line-height: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .feature ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            font-size: 130%;
+            font-weight: 400;
+            color: rgb(160, 155, 155);
+            margin-bottom: 30px;
+        }
+
+        .grid-container {
+            width: 312px;
+            height: 75px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 60px;
+            gap: 5px;
+            align-items:center;
+        }
+
+        .price-off p {
+            font-size: 28px;
+            font-weight: 700;
+        }
+        
+        .price-normal p {
+            font-size: 20px;
+            font-weight: 700;
+            text-decoration: line-through;
+            color: red;
+            text-align: center;
+        }
+
+        .button-order button {
+            background: #2ECC71;
+            color: #ffffff;
+            width: 114px;
+            height: 44px;
+            border-radius: 4px;
+            border: none;
+            line-height: 25px;
+            font-weight: 700;
+        }
+
+        .button-order button:hover {
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="photo-principal">
+            <img src="./images/Photo-Pizza.png" alt="Photo-Pizza">
+            <div class="icon-info">
+                <img src="./images/Icon-Info.png" alt="">
+            </div>
+        <div>
+        <div class="all-white">
+
+            <div class="subtitulo-component">
+                <h3>Pepperoni Pizza</h3>
+                <div class="component">
+                    <img src="./images/Icon-Hot.png" alt="">
+                    <img src="./images/Icon-Wheat.png" alt="">
+                </div>
+            </div>
+
+            <p class="description">
+                Premium pepperoni ans cheese is made with real mozzarela on original hand-tossed crust.
+            </p>
+
+            <div class="feature">
+                <ul>
+                    <li>265 Cal</li>
+                    <li>P/F/C: 12/10/31</li>
+                    <li>53.8 °C</li>
+                </ul>
+            </div>
+            <div class="grid-container">
+                <div class="price-off">
+                    <p>$23.90</p>
+                </div>
+                <div class="price-normal">
+                    <p>$29.90</p>
+                </div>
+                <div class="button-order">
+                    <button>O R D E R</button>
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

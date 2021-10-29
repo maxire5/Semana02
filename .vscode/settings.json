@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.AdvanceCustomBrowserCmdLine":"Firefox"
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "Chrome",
+    "liveServer.settings.port": 5502
 }
